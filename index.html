@@ -4,7 +4,6 @@
   <meta charset="UTF-8" />
   <title>Quién quiere ser millonario - Trivia</title>
   <link rel="stylesheet" href="style.css" />
-  <link rel="manifest" href="manifest.json" />
 </head>
 <body>
 
@@ -107,27 +106,6 @@
 
   <!-- 👇 El script va al final para que el DOM ya exista -->
   <script src="game.js"></script>
-
-<button id="fullscreen-btn" title="Pantalla completa">⛶</button>
-
-<script>
-if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("service-worker.js");
-}
-
-const fsBtn = document.getElementById("fullscreen-btn");
-if (fsBtn) {
-  fsBtn.addEventListener("click", () => {
-    const el = document.documentElement;
-    if (!document.fullscreenElement) {
-      el.requestFullscreen().catch(()=>{});
-    } else {
-      document.exitFullscreen().catch(()=>{});
-    }
-  });
-}
-</script>
 </body>
-
 </html>
 

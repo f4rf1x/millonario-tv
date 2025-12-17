@@ -487,28 +487,3 @@ body {
   box-shadow: 0 0 26px rgba(255, 214, 111, 1);
 }
 
-
-
-/* -----------------------------------------------------------
-   FULLSCREEN / TV MODE BUTTON
-   ----------------------------------------------------------- */
-
-#fullscreen-btn {
-  position: fixed;
-  bottom: 16px;
-  right: 16px;
-  z-index: 100;
-  width: 52px;
-  height: 52px;
-  border-radius: 50%;
-  border: 2px solid #ffd66f;
-  background: radial-gradient(circle at center, #ffdd77, #d88a1b);
-  color: #000;
-  font-size: 1.2rem;
-  cursor: pointer;
-  box-shadow: 0 0 18px rgba(255,214,111,0.9);
-}
-
-#fullscreen-btn:hover {
-  filter: brightness(1.08);
-}

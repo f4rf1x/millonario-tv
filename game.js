@@ -55,6 +55,45 @@ const winRestartBtn = document.getElementById("win-restart-btn");
 
 // ----------------------------------------------------
 // 🔊 AUDIO
+
+/* ----------------------------------------------------
+   ⚡ OPTIMIZACIÓN DE AUDIO — PRELOAD
+   Reduce latencia en efectos de sonido
+---------------------------------------------------- */
+const PRELOAD_AUDIO_PATHS = [
+  // Correctas
+  "audio/Yes01.ogg","audio/Yes06.ogg","audio/Yes07.ogg","audio/Yes08.ogg","audio/Yes09.ogg",
+  "audio/Yes10.mp3","audio/Yes11.ogg","audio/Yes12.ogg","audio/Yes13.ogg","audio/Yes14.ogg","audio/Yes99.ogg",
+  // Incorrectas
+  "audio/No01.ogg","audio/No06.mp3","audio/No07.mp3","audio/No08.mp3","audio/No09.mp3",
+  "audio/No10.mp3","audio/No11.mp3","audio/No12.mp3","audio/No13.mp3","audio/No14.mp3","audio/No15.mp3",
+  // Let's Play
+  "audio/Q6_Lets_Play.ogg","audio/Q11_Lets_Play.ogg",
+  // Background
+  "audio/01-facil.ogg","audio/02-medio.mp3","audio/03-dificil.mp3",
+  // Intro
+  "audio/intro_theme.ogg"
+];
+
+const AUDIO_CACHE = {};
+
+function preloadAudio() {
+  PRELOAD_AUDIO_PATHS.forEach(path => {
+    try {
+      const a = new Audio(path);
+      a.preload = "auto";
+      a.load();
+      AUDIO_CACHE[path] = a;
+    } catch (e) {}
+  });
+}
+
+// Ejecutar preload tras primera interacción del usuario
+document.addEventListener("click", () => {
+  preloadAudio();
+}, { once: true });
+
+
 // ----------------------------------------------------
 
 let audioEnabled = true;
