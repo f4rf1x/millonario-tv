@@ -1,0 +1,172 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "¿Quién abrió el Mar Rojo?",
+      "options": [
+        "Abraham",
+        "Josué",
+        "Moisés",
+        "Elías"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 2,
+      "question": "¿Quién fue lanzado al foso de los leones?",
+      "options": [
+        "Daniel",
+        "José",
+        "Pablo",
+        "Gedeón"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 3,
+      "question": "¿Quién fue el primer rey de Israel?",
+      "options": [
+        "David",
+        "Saúl",
+        "Salomón",
+        "Samuel"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 4,
+      "question": "¿Quién interpretó los sueños del faraón?",
+      "options": [
+        "Daniel",
+        "José",
+        "Moisés",
+        "Aarón"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 5,
+      "question": "¿Qué día resucitó Jesús de entre los muertos?",
+      "options": [
+        "Al segundo día",
+        "Al tercer día",
+        "Al cuarto día",
+        "Al quinto día"
+      ],
+      "correctIndex": 1
+    },
+
+    {
+      "id": 6,
+      "question": "¿Quién dijo 'He aquí la sierva del Señor; hágase conmigo conforme a tu palabra'?",
+      "options": [
+        "Marta",
+        "Elizabeth",
+        "Sara",
+        "María"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 7,
+      "question": "¿Cuál de los apóstoles negó tres veces a Jesús?",
+      "options": [
+        "Pedro",
+        "Juan",
+        "Andrés",
+        "Tomás"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 8,
+      "question": "¿Quién fue el sucesor de Moisés?",
+      "options": [
+        "Aarón",
+        "Caleb",
+        "Josué",
+        "Eliseo"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 9,
+      "question": "¿Qué profeta fue llevado al cielo en un torbellino?",
+      "options": [
+        "Eliseo",
+        "Isaías",
+        "Elías",
+        "Jeremías"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 10,
+      "question": "¿Quién derrotó a los profetas de Baal en el monte Carmelo?",
+      "options": [
+        "Samuel",
+        "Elías",
+        "David",
+        "Oseas"
+      ],
+      "correctIndex": 1
+    },
+
+    {
+      "id": 11,
+      "question": "¿Quién tuvo un hijo cuando ya era anciana?",
+      "options": [
+        "Sara",
+        "María",
+        "Miriam",
+        "Rut"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 12,
+      "question": "¿Quién escribió la mayoría de las cartas del Nuevo Testamento?",
+      "options": [
+        "Pedro",
+        "Pablo",
+        "Juan",
+        "Santiago"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 13,
+      "question": "¿Quién fue tragado por un gran pez?",
+      "options": [
+        "Jonás",
+        "Job",
+        "Abdías",
+        "Nahum"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 14,
+      "question": "¿Cuál rey fue famoso por su gran sabiduría?",
+      "options": [
+        "David",
+        "Ezequías",
+        "Salomón",
+        "Amasías"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 15,
+      "question": "¿A quién se le apareció un carro de fuego?",
+      "options": [
+        "Ezequiel",
+        "Eliseo",
+        "Elías",
+        "Isaías"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}
+

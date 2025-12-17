@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Quién quiere ser millonario - Trivia</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json" />
+</head>
+<body>
+
+  <!-- 🔵 PANTALLA DE INICIO TV -->
+  <div id="start-screen">
+    <div class="start-content">
+      <img
+        src="img/logo-millonario.png"
+        alt="Logo Quién quiere ser millonario"
+        class="logo-tv"
+      />
+      <h2>¿Quién quiere ser millonario?</h2>
+      <p>
+        Carga un archivo JSON con preguntas y luego presiona
+        <strong>Comenzar</strong>.
+      </p>
+      <button id="start-btn">Comenzar</button>
+    </div>
+  </div>
+
+  <div class="game-container">
+    <header class="game-header">
+
+      <!-- 🟡 LOGO EN EL HEADER -->
+      <div class="logo-header">
+        <img
+          src="img/logo-millonario.png"
+          alt="Logo Quién quiere ser millonario"
+          class="logo-tv-small"
+        />
+      </div>
+
+      <h1>¿Quién quiere ser millonario?</h1>
+
+      <div class="info-bar">
+        <span id="question-number">Pregunta 1 / 15</span>
+        <span id="difficulty-label">Dificultad: Fácil</span>
+        <span id="prize-label">$0</span>
+      </div>
+    </header>
+
+    <main>
+
+      <!-- Carga JSON -->
+      <div class="set-selector">
+        <div class="set-row">
+          <span class="set-row-label">Cargar JSON desde archivo:</span>
+          <input type="file" id="file-input" accept="application/json" />
+          <button id="load-file-btn">Cargar set</button>
+        </div>
+      </div>
+
+      <div class="content-row">
+
+        <!-- Panel izquierdo: pregunta + respuestas + controles -->
+        <div class="left-panel">
+
+          <div id="question-box">
+            <p id="question-text">Carga un archivo JSON para comenzar.</p>
+          </div>
+
+          <div id="answers-container">
+            <button class="answer-btn" data-index="0"></button>
+            <button class="answer-btn" data-index="1"></button>
+            <button class="answer-btn" data-index="2"></button>
+            <button class="answer-btn" data-index="3"></button>
+          </div>
+
+          <div class="controls">
+            <button id="lifeline-5050">Comodín 50/50</button>
+            <button id="reveal-btn">Revelar respuesta</button>
+            <button id="next-btn">Siguiente pregunta</button>
+            <button id="restart-btn">Reiniciar juego</button>
+            <button id="mute-btn" title="Silenciar / activar sonido">🔊</button>
+          </div>
+
+          <div id="message-box"></div>
+        </div>
+
+        <!-- Panel derecho: escalera de premios -->
+        <aside class="right-panel">
+          <section id="ladder">
+            <h2>Premios</h2>
+            <ol id="ladder-list"></ol>
+          </section>
+        </aside>
+
+      </div>
+    </main>
+  </div>
+
+  <!-- 🏆 OVERLAY DE VICTORIA EN GRANDE -->
+  <div id="win-overlay" class="overlay hidden">
+    <div class="overlay-content">
+      <h2>¡FELICIDADES!</h2>
+      <p id="win-message">¡Has ganado el premio máximo!</p>
+      <button id="win-restart-btn">Jugar de nuevo</button>
+    </div>
+  </div>
+
+  <!-- 👇 El script va al final para que el DOM ya exista -->
+  <script src="game.js"></script>
+
+<button id="fullscreen-btn" title="Pantalla completa">⛶</button>
+
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("service-worker.js");
+}
+
+const fsBtn = document.getElementById("fullscreen-btn");
+if (fsBtn) {
+  fsBtn.addEventListener("click", () => {
+    const el = document.documentElement;
+    if (!document.fullscreenElement) {
+      el.requestFullscreen().catch(()=>{});
+    } else {
+      document.exitFullscreen().catch(()=>{});
+    }
+  });
+}
+</script>
+</body>
+
+</html>
+

@@ -1,0 +1,172 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "¿Cómo se llamaba el prisionero que fue liberado por Pilato en lugar de Jesús?",
+      "options": [
+        "Silas",
+        "Barrabás",
+        "Judas",
+        "José de Arimatea"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 2,
+      "question": "¿Cuántos libros tiene el pentateuco?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 3,
+      "question": "¿Cómo se les llama a los primeros 4 libros del Nuevo Testamento?",
+      "options": [
+        "Pentateuco",
+        "Libros Sinópticos",
+        "Evangelios",
+        "Libros proféticos"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 4,
+      "question": "¿Quién llamó en secreto a los magos?",
+      "options": [
+        "Herodes",
+        "Los escribas",
+        "Los fariseos",
+        "Faraón"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 5,
+      "question": "¿Quién era la voz que clama en el desierto?",
+      "options": [
+        "Isaías",
+        "Jesús",
+        "Juan el Bautista",
+        "Elías"
+      ],
+      "correctIndex": 2
+    },
+
+    {
+      "id": 6,
+      "question": "Jesús predicaba en Galilea en las...",
+      "options": [
+        "Sinagogas",
+        "Plazas",
+        "Calles",
+        "Casas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 7,
+      "question": "¿Cuál libro de la Biblia no menciona el nombre de Dios?",
+      "options": [
+        "Habacuc",
+        "Rut",
+        "Ester",
+        "2 de Crónicas"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 8,
+      "question": "Noé envió 2 tipos diferentes de aves desde el arca. ¿Cuáles fueron?",
+      "options": [
+        "Una paloma y un águila",
+        "Un águila y una paloma",
+        "Un cuervo y un águila",
+        "Un cuervo y una paloma"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 9,
+      "question": "¿Quién se casó con Booz?",
+      "options": [
+        "Rut",
+        "Ester",
+        "Débora",
+        "Dámaris"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 10,
+      "question": "¿Qué pidió el rey Salomón que Dios le diera?",
+      "options": [
+        "Dinero",
+        "Sabiduría",
+        "Paz",
+        "Poder"
+      ],
+      "correctIndex": 1
+    },
+
+    {
+      "id": 11,
+      "question": "¿Dirigió la reconstrucción del muro de Jerusalén?",
+      "options": [
+        "Eliseo",
+        "Nehemías",
+        "Esdras",
+        "Zorobabel"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 12,
+      "question": "¿Quién dijo “¿Acaso soy un perro, que vienes contra mí con palos?”",
+      "options": [
+        "Saúl",
+        "Jesús",
+        "Goliat",
+        "Josué"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 13,
+      "question": "¿De qué material era la estatua hecha por Nabucodonosor?",
+      "options": [
+        "Oro",
+        "Piedras preciosas",
+        "Diamante",
+        "Barro"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 14,
+      "question": "¿Qué capítulo de la Biblia comienza con la frase \"El Señor es mi pastor\"?",
+      "options": [
+        "Salmo 91",
+        "Salmo 27",
+        "Salmo 23",
+        "Salmo 119"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 15,
+      "question": "¿A cambio de cuántas monedas Judas entregó a Jesús?",
+      "options": [
+        "10 talentos",
+        "30 monedas de oro",
+        "100 denarios",
+        "30 monedas de plata"
+      ],
+      "correctIndex": 3
+    }
+  ]
+}
+

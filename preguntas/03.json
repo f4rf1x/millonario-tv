@@ -1,0 +1,172 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Abraham fue llamado...",
+      "options": [
+        "Varón de Dios",
+        "Siervo de Dios",
+        "Ungido de Dios",
+        "Amigo de Dios"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 2,
+      "question": "¿En qué río fue bautizado Jesús?",
+      "options": [
+        "Jordán",
+        "Tigris",
+        "Éufrates",
+        "Nilo"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 3,
+      "question": "¿Quién le predicó a un etíope eunuco?",
+      "options": [
+        "Pedro",
+        "Jesús",
+        "Pablo",
+        "Felipe"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 4,
+      "question": "¿Pablo compara a la iglesia con...?",
+      "options": [
+        "Un árbol",
+        "Una casa",
+        "Una familia",
+        "Un cuerpo"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 5,
+      "question": "¿Qué significa el nombre Jesús?",
+      "options": [
+        "Salvador",
+        "Elegido",
+        "Hijo de Dios",
+        "Dios con nosotros"
+      ],
+      "correctIndex": 0
+    },
+
+    {
+      "id": 6,
+      "question": "¿A dónde huyó Jonás?",
+      "options": [
+        "Nínive",
+        "Jerusalén",
+        "Tarsis",
+        "Babilonia"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 7,
+      "question": "¿Qué profeta se casó con una prostituta?",
+      "options": [
+        "Isaías",
+        "Oseas",
+        "Joel",
+        "Habacuc"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 8,
+      "question": "¿A quién le dice Jesús que tiene que nacer de nuevo?",
+      "options": [
+        "Pedro",
+        "Nicodemo",
+        "Caifás",
+        "Juan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 9,
+      "question": "¿Cuál es la raíz de los males?",
+      "options": [
+        "El amor a uno mismo",
+        "La envidia",
+        "El amor al dinero",
+        "La desobediencia"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 10,
+      "question": "¿Qué profesión tenía Nehemías?",
+      "options": [
+        "Caballero del Rey",
+        "Copero del Rey",
+        "Panadero del Rey",
+        "Secretario del Rey"
+      ],
+      "correctIndex": 1
+    },
+
+    {
+      "id": 11,
+      "question": "¿Por qué arrojaron a Sadrac, Mesac y Abednego al horno de fuego?",
+      "options": [
+        "Por adorar a otros dioses",
+        "Por negarse a adorar a otros dioses",
+        "Por burlarse del rey de Babilonia",
+        "Por no querer salir de Jerusalén"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 12,
+      "question": "¿Quién fue el primer compañero de Pablo?",
+      "options": [
+        "Marcos",
+        "Lucas",
+        "Bernabé",
+        "Mateo"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 13,
+      "question": "¿Cuántas veces dijo Jesús que debemos perdonar?",
+      "options": [
+        "1 vez",
+        "Algunas veces",
+        "Siempre",
+        "70 veces 7"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 14,
+      "question": "¿Quién fue el primer mártir?",
+      "options": [
+        "Pablo",
+        "Esteban",
+        "Pedro",
+        "Judas"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 15,
+      "question": "¿Qué pidió Daniel para comer en su periodo de prueba?",
+      "options": [
+        "Legumbres y agua",
+        "Pescado y agua",
+        "Trigo y agua",
+        "Verduras y agua"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}
+

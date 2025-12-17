@@ -1,0 +1,84 @@
+Todo bien. Lo que requiero es ajustar la música de la siguiente manera:
+
+Musica de fondo preguntas 1 a 5
+01-facil.ogg
+
+Musica de fondo preguntas 6-10
+02-medio.mp3
+
+Musica de fondo preguntas 11-15
+03-dificil.mp3
+
+Las siguientes son efectos de sonido que deben sonar sobre la música de fondo dependiendo de la pregunta en la que se esté:
+
+Para respuestas incorrectas:
+
+Preguntas...
+1-5
+No01.ogg
+
+6
+No06.mp3
+
+7
+No07.mp3
+
+8
+No08.mp3
+
+9
+No09.mp3
+
+10
+No10.mp3
+
+11
+No11.mp3
+
+12
+No12.mp3
+
+13
+No13.mp3
+
+14
+No14.mp3
+
+15
+No15.mp3
+
+Para respuestas correctas, usar este efecto de sonido
+
+Preguntas...
+1-5
+Yes01.ogg
+
+6
+Yes06.ogg
+
+7
+Yes07.ogg
+
+8
+Yes08.ogg
+
+9
+Yes09.ogg
+
+10
+Yes10.mp3
+
+11
+Yes11.ogg
+
+12
+Yes12.ogg
+
+13
+Yes13.ogg
+
+14-15
+Yes14.ogg
+
+Al finalizar:
+Yes99.ogg
